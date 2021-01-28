@@ -1,63 +1,331 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Dijo Daiju | devokoder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio website of a Aspiring Geek">
-        <meta name="keywords" content="Dijo Daiju, Dijo, devokoder, RSET, Web Developer">
-        <link rel="icon" type="image/svg" href='./favicon.ico'/>
-        <meta name="author" content="Dijo Daiju">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <meta name="keywords" content="Dijo Daiju, Dijo, dijodaiju7, RSET, Web Developer">
+        <link rel="icon" type="image/svg" href='assets/img/favicon.ico'/>
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+
+        <title>Dijo Daiju | Portfolio</title>
     </head>
     <body>
-        <div class="main">
-            <div class="title">
-                <div class="name">
-                    <h2>Hi, I'm Dijo Daiju</h2>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="nav__logo">Dijo Daiju</a>
+                    
                 </div>
-                <div class="color-scheme">
-	                <input type="checkbox" class="checkbox" id="chk" />
-	                <label class="label" for="chk">
-		                <i class="fas fa-moon"></i>
-		                <i class="fas fa-sun"></i>
-		                <div class="ball"></div>
-	                </label>
+             
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Experience</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li>
+                             <div class="color-scheme">
+                                <input type="checkbox" class="checkbox" id="chk" />
+                                <label class="label" for="chk">
+                                    <i class="fas fa-moon"></i>
+                                    <i class="fas fa-sun"></i>
+                                    <div class="ball"></div>
+                                </label>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    
                 </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi <span class="wave">👋</span><br>I'am <span class="home__title-color">Dijo Daiju</span></h1><br>
+                    <p class="home_sub">Web Dev | Cyber Security Enthusiast | Microsoft Innovative Educator</p><br>
+                    <a href="https://drive.google.com/file/d/1-dO8jqDJveuzJEGqdxFRrS_eMNFI0Kuv/view?usp=sharing" class="button">My Resume</a>
+                </div>
+
+                <div class="home__social">
+                  
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/hero.svg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Dijo</h2>
+                        <p class="about__text">A young and aspiring geek, passionate towards technology,Transforming technology to the next level by adopting interactive and user-friendly methods. Always on the look out for the latest technologies and tech gizmos. Trying my level best to reach out to the society and make them aware of the latest technologies especially, Web application and Serverless Application development, Alexa Skill Development, Static Web hosting and System trouble shooting. Currently student @ RSET</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Things I do ❤️ 💻</h2>
+                        <p class="skills__text">Cyber Security Enthusiast,ML Enthusiast, Alexa Skill Development, Serverless Application Deployment, Linux System Administration, Digital Marketing, Project Planning, Server Management.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-globe skills__icon'></i>
+                                <span class="skills__name">Web Development</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-robot skills__icon'></i>
+                                <span class="skills__name">Machine Learning</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fab fa-linux skills__icon'></i>
+                                <span class="skills__name">Linux</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-shield-alt skills__icon' ></i>
+                                <span class="skills__name">Cyber Security</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-cloud skills__icon'></i>
+                                <span class="skills__name">Cloud Computing</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/pro.svg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                       <a href="https://github.com/dijodaiju7/bitcoin-price-tracker"> <img src="assets/img/bitzy.jpeg" alt=""></a>
+                      <center><br>Bitzy - The Crypto Portfolio</center> 
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.amazon.com/Dijo-Daiju-Fitness-Trainer/dp/B0863NCGG8"><img src="assets/img/alexa1.jpeg" alt=""></a>
+                        <center><br>Fitness Trainer</center> 
+                    </div>
+                    <div class="work__img">
+                       <a href="https://www.amazon.in/Dijo-Daiju-Be-Champ/dp/B086453YL7"> <img src="assets/img/bechamp.jpeg" alt=""></a>
+                        <center><br>Be Champ</center> 
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/dijodaiju7/Covid-Cases-Visualization"><img src="assets/img/cov.jpeg" alt=""></a>
+                        <center><br>Covid-19 Cases Visualiztion</center> 
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/Abjcodes/Alzheimers-Detector"><img src="assets/img/alz.jpeg" alt=""></a>
+                        <center><br>Alzheimer's Disease Detector</center> 
+                    </div>
+                    <div class="work__img">
+                       <a href="https://github.com/dijodaiju7/Sparkbank"> <img src="assets/img/spark.png" alt=""></a>
+                        <center><br>SparkBank - Banking web application</center> 
+                    </div>
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Open Source Contribution</h2>
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                       <a href="https://forum.xda-developers.com/t/rom-g530h-f-api22-ultima-the-coolest-oneui-rom-for-samsung-msm8916-devices.4025679/"> <img src="assets/img/ultima.jpg" alt=""></a>
+                      <center><br>Ultima ROM</center> 
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/mexili/incogly"><img src="assets/img/inco.png" alt=""></a>
+                        <center><br>Incogly - video conferencing app</center> 
+                    </div>
+                    <div class="work__img">
+                       <a href="https://github.com/open-minds"> <img src="assets/img/open.jpg" alt=""></a>
+                        <center><br>Team Open Minds</center> 
+                    </div>
+                </section>
+
+                <section class="work section" id="achievements">
+                    <h2 class="section-title">Achievements</h2>
+    
+                    <div class="work__container bd-grid">
+                        <div class="work__img">
+                           <a href="https://drive.google.com/file/d/16Clh17TYcYtLyJ9CJcHVMCip1Hovts7Y/view?usp=sharing"> <img src="assets/img/mmie.png" alt=""></a>
+                          <center><br>Microsoft Innovative Educator</center> 
+                        </div>
+                        <div class="work__img">
+                            <a href="https://drive.google.com/file/d/1EbN2CrTw66whm0LSGAMaf3YoN7rEUAlg/view?usp=sharing"><img src="assets/img/lw.jpeg" alt=""></a>
+                            <center><br>LW - MLOPS Ambassador</center> 
+                        </div>
+                        <div class="work__img">
+                          <a href="https://drive.google.com/file/d/1vFDi3L8T9Ko2NPg07cLdw1zG6HlikGY0/view?usp=sharing"><img src="assets/img/ksum.jpeg" alt=""></a>
+                            <center><br>First Place - KSUM Hack by IEEE</center> 
+                        </div>
+                       
+                    </div>
+                </section>
+                <section class="contact section" id="contact">
+                    <h2 class="section-title">Experience</h2>
+  
+<!-- The Timeline -->
+
+<ul class="timeline">
+
+	<!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">delinaslearning.com</span>
+				<span class="time-wrapper"><span class="time">2020</span></span>
+			</div>
+			<div class="desc">Designed and Developed an E-learning platform delinaslearning.com.</div>
+		</div>
+	</li>
+  
+	<!-- Item 2 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Sparks Foundation</span>
+				<span class="time-wrapper"><span class="time">2020</span>
+			</div>
+			<div class="desc">Web Developent Intern</div>
+		</div>
+	</li>
+
+	<!-- Item 3 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">buymeawork.com (Startup)</span>
+				<span class="time-wrapper"><span class="time">2020</span></span>
+			</div>
+			<div class="desc">Assisted in developing buymeawork.com , a service based website.</div>
+		</div>
+    </li>
+    <li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Ultima One ROM</span>
+				<span class="time-wrapper"><span class="time">2018 - 2020</span></span>
+			</div>
+			<div class="desc">Project Translator</div>
+		</div>
+	</li>
+  
+</ul>
+
+                      
+                    
+                </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+<center>Feel free to drop a Hi 👋. Always open for any tech queries 😃</center><br>
+
+                
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__social">
+
+                <a href="mailto:dijodaijuc@gmail.com" class="footer__icon"><i class='fas fa-envelope' ></i></a>
+                <a href="https://github.com/dijodaiju7" class="footer__icon"><i class='fab fa-github' ></i></a>
+                <a href="https://in.linkedin.com/in/dijo-daiju-9b34431a2" class="footer__icon"><i class='fab fa-linkedin' ></i></a>
+                <a href="https://instagram.com/dijochirakkal7" class="footer__icon"><i class='fab fa-instagram' ></i></a>
+                <a href="https://dev.to/dijodaiju7" class="footer__icon"><i class='fab fa-dev' ></i></a>
+                <a href="https://twitter.com/dijodaiju" class="footer__icon"><i class='fab fa-twitter' ></i></a>
             </div>
-            <div class="intro">
-                <img class="image" src="./dp.png" alt="my picture" />
-                <p><b>Web Developer.Tech Enthusiast. Alexa Skill Dev.</b></p>
-            </div>
-                <div class="nav">
-                <a href="https://devokoder.blogspot.com/">Blog</a>
-                <a href="./about.html">About Me</a>
-                </div>
-        </div>
-        <footer id="footer">
-            <strong>
-            <div class="social">
-                    <a href="https://github.com/dijodaiju7"><i class="social-link fab fa-github"></i></a>
-                    <a href="https://twitter.com/dijodaiju"><i class="social-link fab fa-twitter"></i></a>
-		    <a href="https://instagram.com/dijochirakkal7"><i class="social-link fab fa-instagram"></i></a>
-                    <a href="mailto:dijodaijuc@gmail.com"><i class="social-link fas fa-envelope"></i></a>
-                    <a href="https://in.linkedin.com/in/dijo-daiju-9b34431a2"><i class="social-link fab fa-linkedin"></i></a>
-                </div>
-            <p>Made with <span style="color: #e25555;">&#10084;</span> by devokoder</p>
-           
-            </strong>
-         </footer>
+            <p><p>Coded with <span style="color: #e25555;">&#10084;</span></p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
-
 <script>
- const chk = document.getElementById('chk');
+    const chk = document.getElementById('chk');
+   
+   chk.addEventListener('change', () => {
+       document.body.classList.toggle('dark-mode');
+   });
 
-chk.addEventListener('change', () => {
-	document.body.classList.toggle('dark');
-});
-</script>
+   
+
+
+
+
+   </script>
+   
